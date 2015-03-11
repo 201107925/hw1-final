@@ -1,0 +1,59 @@
+h1{
+
+    color : rgb(90, 170, 50);
+    font-weight: bold;
+
+}
+label{
+    display : block;
+}
+
+a{
+    color: rgb(170, 50, 50);
+}
+#headwrap
+{ width: 340px; margin: 0 auto; }
+#bodywrap
+{
+    width: 310px; margin: 0 auto;
+}
+
+nav ul{
+
+    padding: 2px;
+    margin: 20px;
+
+}
+a:visited{
+    color: #8a0dd3;
+}
+nav a{
+    border: 5px solid yellowgreen;
+    margin: 5px;
+    text-decoration: none;
+
+}
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 1px;
+}
+
+
+#homepending
+{
+    -webkit-text-fill-color: dodgerblue;
+    margin-bottom: 15px;
+}
+
+li +li {
+    margin-top: 10px;
+}
+
+a:hover { color: yellow; }
+
+label{
+    font-weight : bold;
+   font-size: large;
+    margin-bottom: 4px;
+}
