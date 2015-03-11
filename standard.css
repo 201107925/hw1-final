@@ -12,10 +12,10 @@ a{
     color: rgb(170, 50, 50);
 }
 #headwrap
-{ width: 340px; margin: 0 auto; }
+{ width: 380px; margin: 0 auto; }
 #bodywrap
 {
-    width: 310px; margin: 0 auto;
+    width: 340px; margin: 0 auto;
 }
 
 nav ul{
@@ -52,8 +52,23 @@ li +li {
 
 a:hover { color: yellow; }
 
-label{
+
+
+label {
     font-weight : bold;
-   font-size: large;
-    margin-bottom: 4px;
+    font-size: large;
+    margin: 10px;
+}
+
+
+#ayarange label input[type="text"]{
+    display: inline;
+    width: 100px;
+
+}
+
+input[type="submit"]{
+    margin-top: 9px;
+    width: 77px;
+
 }

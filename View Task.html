@@ -1,28 +1,37 @@
 <!DOCTYPE html>
 <html>
-<head lang="en"><div id ="headwrap">
+<head lang="en">
+    <link rel="stylesheet" type="text/css" href="standard.css">
     <meta charset="UTF-8">
     <title>View Task</title>
-    <h1>View Task</h1>
+    <div id ="headwrap">
+        <h1>View Task</h1>
+        <nav>
+            <ul>   <li><a href="home.html">Home</a></li>
+                <li><a href = "AddTask.html">Add Task</a></li>
+                <li> <a href = "list.html">List Tasks</a></li></ul>
+        </nav>
     </div>
 </head>
 
 <body>
+<div id ="bodywrap">
 
-    <div>
+    <div id="ayarange">
+
 <label>
     Sura:<input type = "text" name="sura" id="sura" value="Yousuf" readonly>
 </label>
 
-        <label>
-            Aya Range:<input type = "text" name="from aya" id="from sura" value="1" readonly>
-            <input type = "text" name="to aya" id="to sura" value="10" readonly>
+        <label >
+            Aya Range:<input type = "text" name="from aya" id="fromsura" value="1" readonly>
+            <input type = "text" name="to aya" id="tosura" value="10" readonly>
         </label>
 
         <label>
             Due Date:<input type = "date" name="date" id="date"  readonly>
         </label>
-
+</div>
 
     </div>
 
@@ -30,5 +39,5 @@
 
 
 </body>
-<a href="list.html">Back</a>
+
 </html>

@@ -7,17 +7,25 @@
     <meta charset="UTF-8">
     <title></title>
 
+    <div id ="headwrap">
         <h1>Add Task</h1>
-
-
-
+<nav>
+       <ul>   <li><a href="home.html">Home</a></li>
+           <li><a href = "AddTask.html">Add Task</a></li>
+           <li> <a href = "list.html">List Tasks</a></li></ul>
+</nav>
+</div>
 
 </head>
 <body>
+
+
+
+<div id="bodywrap">
 <p>In here you can add tasks by selecting the sura and ayat</p>
 
 <form>
-<div>
+
     <label>Select Sura</label>
     <select name = "sura" id = "sura">
         <option value="AlBakara">Al Bakara</option>
@@ -49,17 +57,18 @@
 
        <label>Type:
         <label>
-            <input type ="radio" id="Memorization" name="type" value="Memorization">Memorization
+            <input type ="radio" id="Memorization" name="type" value="Memorization" checked>Memorization
 
 
 
-            <input type ="radio" id="Revision" name="type" value="Revision">Revision
+            <input type ="radio" id="Revision" name="type" value="Revision" >Revision
         </label>
         </label>
-    </div>
 
 
+<input type="submit" >
 </form>
+</div>
 </body>
-<footer><a href="home.html">Home</a> </footer>
+<footer> </footer>
 </html>
